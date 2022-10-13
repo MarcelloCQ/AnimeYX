@@ -1,8 +1,2 @@
-.container {
-    background-color: rgb(231, 231, 231);
-}
-
-.menu .menubtn {
-    margin: 4px 0 0;
-    line-height: normal;
-}
+@import './modules/variables.css';
+@import './modules/header.css'
