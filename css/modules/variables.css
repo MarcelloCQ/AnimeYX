@@ -4,4 +4,7 @@
     --primary-theme-btn-color: white;
     --primary-color-search-btn: black;
     --primary-menu-color: rgb(53, 44, 44);
+    --secondary-theme-background-color: transparent;
+    --primary-shadow-color: #00000080;
+    --secondary-shadow-color:#00000040;
 }

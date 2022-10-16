@@ -1,0 +1,33 @@
+@import './variables.css';
+
+.search {
+    position: fixed;
+    left: 40%;    
+}
+
+/* .search__navbar {
+} */
+
+/* .container__navbar {
+} */
+
+/* .d-flex {
+} */
+
+.search__navbar__form-control {
+    border-radius: 0.2rem;
+    background-color: var( --primary-shadow-color);
+}
+
+.search__navbar__button {
+    border: none;
+    background-color: transparent;
+}
+
+.bi-search-heart-fill {
+    position: sticky;
+}
+
+@media (min-width: 710px) {
+
+}

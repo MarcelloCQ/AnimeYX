@@ -1,2 +1,7 @@
 @import './modules/variables.css';
-@import './modules/header.css'
+@import './modules/header.css';
+
+.body {
+    margin: 0;
+    padding: 0;
+}

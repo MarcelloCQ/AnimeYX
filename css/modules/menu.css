@@ -1,0 +1,43 @@
+@import './variables.css';
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__list {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-theme-color);
+    transform: translateX(var(--translate-x-menu));
+    transition: transform 0.25s;
+}
+
+.menu__icon {
+    display: flex;
+    background-color: black;
+    border: 0;
+    color: var(--third-text-color);
+    font-size: 1.75rem;
+    padding: 0;
+    filter: contrast(0.75);
+    cursor: pointer;
+    transition: filter 0.25;
+}
+
+.menu__icon--open {
+
+}
+
+.menu__icon--close {
+
+}
